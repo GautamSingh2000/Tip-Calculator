@@ -75,13 +75,13 @@ fun MyApp(content: @Composable () -> Unit) {
     }
 }
 
+@Preview
 @Composable
 fun TopHeader(perPersionValue: Double = 0.0) {
-
     Surface(
         modifier = Modifier
             .fillMaxWidth()
-            .height(150.dp)
+            .height(180.dp)
             .padding(horizontal = 20.dp, vertical = 20.dp),
         color = Purple80,
         shape = CircleShape.copy(CornerSize(30.dp)),
